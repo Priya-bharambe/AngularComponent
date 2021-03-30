@@ -3,10 +3,28 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './header/header.component';
+import { NavigationComponent } from './navigation/navigation.component';
+import { AsideComponent } from './aside/aside.component';
+import { SectionComponent } from './section/section.component';
+import { ArticleComponent } from './article/article.component';
+import { ContentComponent } from './content/content.component';
+import { Section1Component } from './section1/section1.component';
+import { Section2Component } from './section2/section2.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    NavigationComponent,
+    AsideComponent,
+    SectionComponent,
+    ArticleComponent,
+    ContentComponent,
+    Section1Component,
+    Section2Component,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
